@@ -31,5 +31,25 @@
         "required": true
       }
     ]
+  },
+  {
+    "id": "survey-template",
+    "title": "General Survey",
+    "description": "A simple survey template",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "short-text",
+        "label": "What is your favorite color?",
+        "required": false
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "label": "Do you like ice cream?",
+        "required": true,
+        "options": ["Yes", "No"]
+      }
+    ]
   }
 ]
