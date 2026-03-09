@@ -1,0 +1,35 @@
+[
+  {
+    "id": "feedback-template",
+    "title": "Customer Feedback",
+    "description": "Collect customer feedback",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "short-text",
+        "label": "What is your name?",
+        "required": true
+      },
+      {
+        "id": "q2",
+        "type": "multiple-choice",
+        "label": "How satisfied were you?",
+        "required": true,
+        "options": ["Very satisfied", "Satisfied", "Neutral", "Dissatisfied"]
+      }
+    ]
+  },
+  {
+    "id": "event-template",
+    "title": "Event Registration",
+    "description": "Basic registration form",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "short-text",
+        "label": "What is your email?",
+        "required": true
+      }
+    ]
+  }
+]
